@@ -1,4 +1,79 @@
 body {
+    display: flex;
+    margin-left: 150px;
     background-color: #1F2937;
     color: white;
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+button {
+    background-color: #6C3B2A;
+}
+#title {
+    align-self: flex-start;
+    margin: 0px;
+    margin-top: 75px;
+    padding: 0px;
+    margin-right: 75px;
+    font-size: 50px;
+    text-align: center;
+    color: #955F20;
+}
+
+#middle-section {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+#grid-options {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    
+}
+
+#grid-option {
+    height: 75px;
+    width: 150px;
+    margin: 20px 0px;
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+
+#sketch-container {
+    height: 768px;
+    width: 768px;
+    border: 4px solid maroon;
+    background-color: rgb(53,54,58);
+}
+
+#eraser {
+    font-family: 'Courier New', Courier, monospace;
+    width: 300px;
+    height: 75px;
+    font-size: 70px;
+    padding: 0px;
+    margin-top: 10px;
+    align-self: center;
+    
+
+}
+
+#end-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 20px;
+    gap: 22px;
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+
+#color-option-black, #color-option-rgb  {
+    font-family: 'Courier New', Courier, monospace;
+    width: 150px;
+    height: 75px;
+    font-size: 45px;
 }
