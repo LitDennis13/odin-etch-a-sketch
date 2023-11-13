@@ -5,10 +5,27 @@
 <head>
     <meta charset="UTF-8">
     <title>Etch-a-Sketch</title>
+    <link rel="stylesheet" href="./styles.css">
 </head>
 
 <body>
-    <h1>Etch-a-Sketch</h1>
+    <h1 id="title">Etch-a-Sketch</h1>
+    <div id="middle-section">
+        <div id="grid-options">
+            <button id="grid-option">16x16</button>
+            <button id="grid-option">32x32</button>
+            <button id="grid-option">64x64</button>
+        </div>
+        
+        <div id="sketch-container"><img height="768" width="768"src="https://re-mm-assets.s3.amazonaws.com/product_photo/46460/large_large_Poly_LightBlue_pms291up_1471509902.jpg"></div>
+        <button id="eraser">Erase</button>
+        
+    </div>
+    <div id="end-section">
+        <button id="color-option">Black</button>
+        <button id="color-option">RGB</button>
+    </div>
+    <script src="./script.js"></script>
 </body>
 
 
